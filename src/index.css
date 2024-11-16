@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-pagination span {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  background: lightgray;
+  margin: 0 5px;
+  border-radius: 5px;
+  /* transition: background 0.3s; */
+}
+
+.custom-pagination span.swiper-pagination-bullet-active {
+  background: gray; /* Active bullet styling */
+  color: white;
+}
